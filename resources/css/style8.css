@@ -1,0 +1,24 @@
+.baladk{
+    font-size: large;
+    padding-top: 5%;
+    font-weight: bolder;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: right;
+}
+table td{
+        border: 7px solid black;
+        
+      }
+.ibaladk{
+    width: 100%;
+}
+main div h1{
+    font-size: x-large;
+    text-align: center;
+    padding-top: 2%;
+    border-bottom: 3px ridge #07A49A;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 5px 5px #CE2E7D;
+color: #240505;
+
+
+}
