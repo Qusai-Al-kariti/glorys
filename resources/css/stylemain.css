@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    
+
+
+body{
+    background-image:linear-gradient(rgba(255,255,255,.0),rgba(255,255,255,.0)), url(../img/bg1.jpg.png);
+    height: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+    
+}
+/*_____________________*/
+/*containers*/
+/*--------------------*/
+.containers{
+    display: flex;
+    max-width: 1900%;
+    margin:  auto ;
+    height: 11%;
+    background: rgb(240, 240, 240);
+    width: 100%;
+    font-size: 200%;
+    }
+    .div-12{
+       
+        display: inline-block;
+        margin: auto;
+        font-size: 150%;
+        position: relative;
+        top :2%;
+        left: 2%; 
+  
+    }
+    .div-13{
+       margin: auto;
+       font-size: 65%;
+       width: 150%;
+       position: relative;
+       top: 10%;
+       font-family: 'Marck Script', cursive;
+       color: #000;
+       padding-left: 55%;
+       
+       
+       
+    }
+    .p1{
+        margin: auto;
+        width: 25%;
+        position: relative;
+        top: 10%;
+       
+    
+    }
+    .link1:link,
+    .link1:visited{
+       
+        width: 30%;
+        height: 20%;
+        font-family: 'Roboto Mono', monospace;
+        color: rgb(170, 0, 162);
+        text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 8px 2px 2px rgba(206,89,55,0);
+        color: #FFFFFF;
+       
+        
+    } 
+    .link1:active, 
+    .link1:hover{ 
+       
+        
+        font-family: 'Roboto Mono', monospace;
+        color: black;
+        
+    }
+    .img1{
+       
+        width: 20%;
+        padding-bottom: 1%;
+        border-radius: 60%;
+       
+    }
+    /*------------------------*/
+
+/*_____________________*/
+/*navbar*/
+/*--------------------*/
+.logog{
+    width:45px;
+    border-radius: 60%;
+    
+}
+.navbar-brand{
+padding-left: 1%;
+}
+   /*------------------------*/
+
+/*_____________________*/
+/*footer*/
+/*--------------------*/
+
+  main{
+      background-color: rgba(255, 242, 254, 0.473);  
+      width: 80%;
+      margin-top: 5%;
+      margin-bottom: 20%;
+      margin-left: 10%;
+      margin-right: 10%;
+    padding-bottom: 5%;
+  }
+  footer {
+    background: rgb(220, 220, 220);
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    height: 70px; 
+    
+
+
+}
+
+footer span{
+    padding: 0px 20px;
+
+}
+/*.container{
+    height: 70px; 
+    width: 70%;
+  }
+
+/*------------------------*/
+
+/*_____________________*/
+/*link nav*/
+/*--------------------*/
+
+
+
+/*------------------------*/
+
+/*_____________________*/
+/*script*/
+/*--------------------*/
+.wel{
+    font-weight: bolder;
+    color: rgb(170, 0, 162);
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+th{
+    background: #00a9b0;
+    color: #fff;
+    padding: 5px 0;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .div-12{
+        display: inline-block;
+        font-size: 70%;
+        position: relative;
+        top :2%;
+        left: 2%; 
+        text-shadow: 7px 5px 5px #CE5937, 7px 5px 5px #CE5937;       
+    }
+    .div-13{
+        margin: auto;
+        font-size: 35%;
+        width: 150%;
+        position: relative;
+        top: 10%;
+        font-family: 'Marck Script', cursive;
+        color: #000;
+        padding-left: 10%;
+        
+        
+     }
+     .p1{
+         margin: auto;
+         width: 25%;
+         position: relative;
+         top: 10%;
+        right: 5%;
+     
+     }
+     main{
+        background-color: rgba(255, 242, 254, 0.473);  
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+      
+    }
+    footer {
+        background: rgb(220, 220, 220);
+        width: 100%;
+        text-align: center;
+        font-size: 0.6em;
+    
+    
+    
+    }
+    
+
+
+}
