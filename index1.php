@@ -126,7 +126,7 @@ if (!isset($_SESSION['username'])) {
           <img src="resources/img/acrylic12.jpg" class="d-block w-100" alt="...">
           <div class="d-md-block txtcrsl">
             <h4> الرسم بالأكريلك (خصائص ومزايا)</h4>
-            <a href="index11.html">
+            <a href="index4.php">
               <button class="btn btn-primary btn-lg h4crsl"><i class="fas fa-paw"></i> أعرف المزيد</button></a>
           </div>
         </div>

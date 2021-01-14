@@ -2,8 +2,8 @@
 
 
 function bigImg(x) {
-    x.style.height = "70%";
-    x.style.width = "90%";
+    x.style.height = "120%";
+    x.style.width = "120%";
     document.getElementById("demon").innerHTML = d1;
   }
 

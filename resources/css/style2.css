@@ -2,6 +2,7 @@
     position: relative; 
     margin-top: 5%;
     padding-top: 5%;
+    text-align: right;
 
 }
 .nav-pills {
@@ -10,4 +11,6 @@
       }
 .col-8 div {
         height: 200px;
+        padding-left: 3%;
+        padding-right: 3%;
       }

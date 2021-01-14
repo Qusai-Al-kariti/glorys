@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="resources/css/stylemain.css">
   <link rel="stylesheet" href="vendor/css/normalize.css">
   <link rel="stylesheet" href="vendor/css/grid.css">
-  <link rel="stylesheet" href="resources/css/style5.css">
+  <link rel="stylesheet" href="resources/css/cart.css">
   <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
-  <title>View</title>
+  <title>reView</title>
   <style>
 
 		.alb {
@@ -66,7 +66,7 @@
           <div class="dropdown-menu">
           <a class="dropdown-item" href="index10.html">gallery</a>
             <a class="dropdown-item" href="cart_add.php">cornar art</a>
-            <a class="dropdown-item" href="#">sale</a>
+            <a class="dropdown-item" href="index11.php">add picture</a>
           </div>
         </li>
         <li class="nav-item">
@@ -93,12 +93,12 @@
      <?php 
           $sql = "SELECT * FROM images ORDER BY id DESC";
           $res = mysqli_query($mysqli,  $sql);
-
           if (mysqli_num_rows($res) > 0) {
           	while ($images = mysqli_fetch_assoc($res)) {  ?>
              
-             <div class="alb">
-             	<img src="uploads/<?=$images['image_url']?>">
+               <img src="uploads/<?=$images['image_url']?>">
+               <h3><?php echo $images['name']?></h3>
+    <p class="card-text"><?php echo $images["description"]; ?></p>
              </div>
           		
     <?php } }?>

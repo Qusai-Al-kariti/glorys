@@ -1,3 +1,14 @@
+<?php 
+
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php");
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,12 +79,31 @@
         <li class="nav-item">
           <a class="nav-link" href="index6.html">Connect us</a>
         </li>
-
       </ul>
     </div>
-
+    <?php echo "<h4 style='color:blue; font-size:22px;'> Welcome " . $_SESSION['username'] . "</h4>"; ?>
+    <a href="logout.php"> <h4 style=' font-size:22px;'> &nbsp; &nbsp; Logout </h4> </a>
   </nav>
   <main>
+  <h1 class="title1">- ADD PICTURE </h1>
+
+
+    <?php if (isset($_GET['error'])): ?>
+    <p>
+      <?php echo $_GET['error']; ?>
+    </p>
+    <?php endif ?>
+    <form action="upload1.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="my_image">
+      <input type="text" placeholder="Name"  name="name">
+ 
+      <input type="text" placeholder="description"  name="description">
+      <input type="submit" name="submit" value="Upload">
+      
+    </form>
+
+
+
   </main>
   <footer>
     <div class="container">

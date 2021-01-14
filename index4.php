@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="resources/css/stylemain.css">
   <link rel="stylesheet" href="vendor/css/normalize.css">
   <link rel="stylesheet" href="vendor/css/grid.css">
+  <link rel="stylesheet" href="resources/css/style5.css">
   <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
   <title>Species and  equipment</title>

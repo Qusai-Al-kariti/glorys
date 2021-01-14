@@ -127,6 +127,20 @@ h5{
         text-align: justify right justify;
       
     }
+    video{
+
+
+        display: flex;
+        
+        }
+        
+        
+        main div iframe{
+            margin: 3% auto;
+            width: 324px;
+            height: 250px;
+        
+        }
 
 
 }

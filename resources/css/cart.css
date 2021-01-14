@@ -1,0 +1,15 @@
+main img{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+   margin-top: 5%;
+   
+   
+    
+}
+h1{
+    font-size: 33px;
+}
